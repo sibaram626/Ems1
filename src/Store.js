@@ -9,7 +9,7 @@ const Store = ({children}) => {
 
     useEffect(() => {
 
-        fetch('http://localhost:3005/kullanicilar', {
+        fetch('http://localhost:3000', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'
